@@ -128,7 +128,7 @@ There are four parts to the lab, each part has a series of prompts that include 
 
 You can run your files using `node` command. *e.g* `node lab-1.js`
 
-**WATCH OUT!** if solve one of the prompts, but don't comment it out, it will keep running everytime you run the file with `node`!
+**WATCH OUT!** if you solve one of the prompts, but don't comment it out, it will keep running everytime you run the file with `node`!
 
 * Part 1: `lab-1.js` covers basic **CRUD** with sequelize -- no relations.
 * Part 2: `lab-2.js` has propmts that focus on the *relationship* between the models
