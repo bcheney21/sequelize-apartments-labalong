@@ -83,8 +83,8 @@ What will we need to supply for the `--name` and `--attributes` to create our mo
   <summary>What Do The Commands Look Like?</summary>
 
   ```bash
-  sequelize model:create --name owner --attributes name:text,age:integer
-  sequelize model:create --name property --attributes name:text,units:integer,ownerId:integer
+  sequelize model:generate --name owner --attributes name:text,age:integer
+  sequelize model:generate --name property --attributes name:text,units:integer,ownerId:integer
   ```
 </details>
 
