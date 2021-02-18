@@ -24,7 +24,7 @@ async function createOwner() {
 createOwner()
 
 
-// 2. CREATE a property named Brookevista with 20 units
+// 3. CREATE a property named Brookevista with 20 units
 // https://sequelize.org/master/manual/model-querying-basics.html#simple-insert-queries
 async function createProperty() {
   try {
@@ -42,7 +42,7 @@ async function createProperty() {
 // uncomment to see output
 // createProperty()
 
-// 3. READ all owners and console log thier names
+// 4. READ all owners and console log thier names
 // https://sequelize.org/master/manual/model-querying-basics.html#simple-select-queries
 async function ownerNames() {
   try {
@@ -61,7 +61,7 @@ async function ownerNames() {
 // uncomment to see output
 // ownerNames()
 
-// 4. READ the property with an id of 1 and log the name and id
+// 5. READ the property with an id of 1 and log the name and id
 // https://sequelize.org/master/manual/model-querying-finders.html
 // solve with findByPk
 async function solveOne() {
@@ -94,7 +94,7 @@ async function solveTwo() {
 // uncomment to see output
 // solveTwo()
 
-// 5. UPDATE the owner named John's age to 43 console log the rows updated
+// 6. UPDATE the owner named John's age to 43 console log the rows updated
 // https://sequelize.org/master/manual/model-querying-basics.html#simple-select-queries
 async function updateOwner() {
   try {
@@ -120,7 +120,7 @@ async function updateOwner() {
 // uncomment to see output
 // updateOwner()
 
-// 6. DESTROY the owner named John 
+// 7. DESTROY the owner named John 
 // https://sequelize.org/master/manual/model-querying-basics.html#simple-delete-queries
 async function destroyOwner() {
   try {

@@ -120,7 +120,7 @@ async function maxAgeOperators() {
 }
 
 // uncomment to see output
-maxAgeOperators()
+// maxAgeOperators()
 
 // 8. Show all of the properties in alphabetical order that are not named Archstone and do not have an id of 3 or 5.
 // https://sequelize.org/master/manual/model-querying-basics.html#ordering
@@ -155,10 +155,7 @@ async function orderAndOperators() {
 }
 
 // uncomment to see output
-// findProperties()
-
-// uncomment to see output
-// yukiProperties()
+// orderAndOperators()
 
 // 9. Show the name of of a properties owner by looking up the property
 async function propertyLookup(){
