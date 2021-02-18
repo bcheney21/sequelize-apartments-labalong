@@ -29,7 +29,7 @@ echo node_modules >> .gitignore
 
 Now its time to set up the sequelize node package! 
 
-If you don't have sequelize installed globally, you will need to install it along with the postgres dialect package. *Otherwise skip this step!* Run `npm i sequelize pg` to install the required packages.
+You will need to install the sequelize package with `npm` along with the postgres dialect package. Run `npm i sequelize pg` to install the required packages.
 
 To generate the boilerplate for a sequelize project, run `sequelize init`
 
