@@ -73,7 +73,7 @@ Take a moment to plan out what tables you will need, and what columns they will 
 
 ### Create Those Models!
 
-First we will need to make the sequelize models, and then we will migrate them to our database. We can use the `sequelize model:create` command to create the models. 
+First we will need to make the sequelize models, and then we will migrate them to our database. We can use the `sequelize model:generate` command to create the models. 
 
 What will we need to supply for the `--name` and `--attributes` to create our models?
 
