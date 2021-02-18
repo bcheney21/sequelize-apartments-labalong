@@ -5,7 +5,7 @@
 // 1. require your models
 const db = require('./models')
 
-// 1. READ an owner with thier id and includ thier properties, and console log the name of all of thier properties
+// 2. READ an owner with thier id and include thier properties, then console log the name of all of thier properties
 // you can check in your psql shell to find an owner with properties!
 // https://sequelize.org/master/manual/model-querying-finders.html
 // https://sequelize.org/master/manual/eager-loading.html
@@ -22,7 +22,7 @@ async function findProperties() {
   }
 }
 
-// 2. READ one of the owners from the db (your choice) and also the property named Brookevista. Add the Brookevista to the owner.
+// 3. READ one of the owners from the db (your choice) and also the property named Brookevista. Add the Brookevista to the owner.
 // https://sequelize.org/master/manual/model-querying-finders.html
 // https://sequelize.org/master/manual/model-querying-basics.html#applying-where-clauses
 // https://sequelize.org/master/manual/assocs.html#-code-foo-belongsto-bar---code-
@@ -50,7 +50,7 @@ async function addPropertyToOwner() {
 // uncomment to see the output
 // addPropertyToOwner()
 
-// 3. CREATE an owner named Erin age 21 who owns a property named Green Haven with 40 units 
+// 4. CREATE an owner named Erin age 21 who owns a property named Green Haven with 40 units 
 // BONUS add more than one proptery at the time of creation
 // https://sequelize.org/master/manual/creating-with-associations.html#hasmany---belongstomany-association
 async function createOwnerAndProperty() {

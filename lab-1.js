@@ -61,7 +61,7 @@ async function ownerNames() {
 // uncomment to see output
 // ownerNames()
 
-// 3. READ the property with an id of 1 and log the name and id
+// 4. READ the property with an id of 1 and log the name and id
 // https://sequelize.org/master/manual/model-querying-finders.html
 // solve with findByPk
 async function solveOne() {
@@ -94,7 +94,7 @@ async function solveTwo() {
 // uncomment to see output
 // solveTwo()
 
-// 4. UPDATE the owner named John's age to 43 console log the rows updated
+// 5. UPDATE the owner named John's age to 43 console log the rows updated
 // https://sequelize.org/master/manual/model-querying-basics.html#simple-select-queries
 async function updateOwner() {
   try {
@@ -120,7 +120,7 @@ async function updateOwner() {
 // uncomment to see output
 // updateOwner()
 
-// 5. DESTROY the owner named John 
+// 6. DESTROY the owner named John 
 // https://sequelize.org/master/manual/model-querying-basics.html#simple-delete-queries
 async function destroyOwner() {
   try {

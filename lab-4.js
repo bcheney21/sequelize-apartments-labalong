@@ -63,7 +63,7 @@ async function olderThanThirty() {
 // uncomment to see output
 // olderThanThirty()
 
-// 4. Show the names of the first three owners in your owners table.
+// 5. Show the names of the first three owners in your owners table.
 // https://sequelize.org/master/manual/model-querying-basics.html#limits-and-pagination
 async function limitOwners() {
   try {
@@ -79,7 +79,7 @@ async function limitOwners() {
 // uncomment to see output
 // limitOwners()
 
-// 5. Show the highest age of all owners.
+// 6. Show the highest age of all owners.
 async function ownerAgeMax() {
   try {
     const maxAge = await db.owner.max('age')
@@ -92,7 +92,7 @@ async function ownerAgeMax() {
 // uncomment to see output
 // ownerAgeMax()
 
-// 10. Show the highest age of owners who are under 30 and whose name contains an `o`. Limit to one result.
+// 7. Show the highest age of owners who are under 30 and whose name contains an `o`. Limit to one result.
 // https://sequelize.org/master/manual/model-querying-basics.html#operators
 // https://sequelize.org/master/manual/model-querying-basics.html#limits-and-pagination
 // https://sequelize.org/master/manual/model-querying-basics.html#-code-max--code----code-min--code--and--code-sum--code-
@@ -122,7 +122,7 @@ async function maxAgeOperators() {
 // uncomment to see output
 maxAgeOperators()
 
-// 6. Show all of the properties in alphabetical order that are not named Archstone and do not have an id of 3 or 5.
+// 8. Show all of the properties in alphabetical order that are not named Archstone and do not have an id of 3 or 5.
 // https://sequelize.org/master/manual/model-querying-basics.html#ordering
 // https://sequelize.org/master/manual/model-querying-basics.html#operators
 async function orderAndOperators() {
@@ -181,7 +181,6 @@ async function propertyLookup(){
 // propertyLookup()
 
 // 10. Count the total number of properties where the ownerId is between 1 and 3.
-// https://sequelize.org/master/manual/model-querying-basics.html#operators
 async function countProperties() {
   try {
     // ordering options for ascending name and a where clause with operators
@@ -207,7 +206,6 @@ async function countProperties() {
 // countProperties()
 
 // 11. List all properties sorted by the owners names 
-// https://sequelize.org/master/manual/model-querying-basics.html#ordering
 async function propertiesByOwnerName() {
   try {
     // ordering options for ascending age
