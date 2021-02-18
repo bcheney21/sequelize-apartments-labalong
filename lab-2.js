@@ -22,6 +22,9 @@ async function findProperties() {
   }
 }
 
+// uncomment to see the output
+// findProperties()
+
 // 3. READ one of the owners from the db (your choice) and also the property named Brookevista. Add the Brookevista to the owner.
 // https://sequelize.org/master/manual/model-querying-finders.html
 // https://sequelize.org/master/manual/model-querying-basics.html#applying-where-clauses

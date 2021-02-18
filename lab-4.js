@@ -7,9 +7,6 @@ const db = require('./models')
 // 2. require sequelize operators
 const { Op } = require('sequelize')
 
-// uncomment to see output
-// ownerNames()
-
 // 3. Show the ages of all of the owners in ascending order.
 // https://sequelize.org/master/manual/model-querying-basics.html#ordering
 async function ownerAgesAscending() {
